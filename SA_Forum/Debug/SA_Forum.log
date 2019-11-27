@@ -1,2 +1,12 @@
-﻿  SA_Forum.cpp
-  SA_Forum.vcxproj -> U:\Formation\Dev\SA_Web\SA_Forum\Debug\SA_Forum.exe
+﻿  AbstractUser.cpp
+U:\Formation\Dev\SA_Web\SA_Forum\AbstractUser.cpp(9,1): error C2511: 'void AbstractUser::SubscribeEvent(Event)' : impossible de trouver la fonction membre surchargée dans 'AbstractUser'
+U:\Formation\Dev\SA_Web\SA_Forum\AbstractUser.h(6): message : voir la déclaration de 'AbstractUser'
+U:\Formation\Dev\SA_Web\SA_Forum\AbstractUser.cpp(18,1): error C2511: 'void AbstractUser::UnsubscribeEvent(Event)' : impossible de trouver la fonction membre surchargée dans 'AbstractUser'
+  AgendaCategory.cpp
+  ForumCategory.cpp
+  Event.cpp
+  Member.cpp
+  SA_Forum.cpp
+  Thread.cpp
+  Génération de code en cours...
+U:\Formation\Dev\SA_Web\SA_Forum\AbstractUser.h(6): message : voir la déclaration de 'AbstractUser'

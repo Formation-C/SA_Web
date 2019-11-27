@@ -9,6 +9,7 @@ namespace Agenda
 class Category :
 	public AbstractCategory
 {
+
 };
 
 }
