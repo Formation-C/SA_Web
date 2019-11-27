@@ -151,7 +151,25 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="AbstractUser.cpp" />
+    <ClCompile Include="AgendaCategory.cpp" />
+    <ClCompile Include="ForumCategory.cpp" />
+    <ClCompile Include="Event.cpp" />
+    <ClCompile Include="Member.cpp" />
     <ClCompile Include="SA_Forum.cpp" />
+    <ClCompile Include="Thread.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AbstractCategory.h" />
+    <ClInclude Include="AbstractUser.h" />
+    <ClInclude Include="AgendaCategory.h" />
+    <ClInclude Include="ForumCategory.h" />
+    <ClInclude Include="Event.h" />
+    <ClInclude Include="Guest.h" />
+    <ClInclude Include="Member.h" />
+    <ClInclude Include="Message.h" />
+    <ClInclude Include="Subscription.h" />
+    <ClInclude Include="Thread.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
